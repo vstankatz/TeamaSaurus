@@ -25,6 +25,8 @@ function Header(){
     <Explore/>
     </div>
     </div>
+    </div>
+    <div className='headerRight'>
     <Link to ='/login'>LOG IN</Link>
     <button>Get Started</button>
     </div>
