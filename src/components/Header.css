@@ -19,3 +19,23 @@ font-weight: bold;
   position: relative;
   top: 10px;
 }
+
+.headerMiddle {
+  display: inline-flex;
+}
+
+.headerMiddle button, .headerMiddle a{
+  position: relative;
+  margin: 15px;
+  top: 30px;
+}
+
+.headerRight {
+  float: right;
+}
+
+.headerRight button, .headerRight a{
+  position: relative;
+  margin: 15px;
+  top: 30px;
+}
