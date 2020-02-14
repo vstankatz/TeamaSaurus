@@ -8,8 +8,10 @@ function Header(){
   return(
     <div className='headerBody'>
     <div className='headerTitle'>
+    <a href='/'>
     <img className='logo' src={Logo}></img>
     <h3>Team<span>a</span>Saur</h3>
+    </a>
     </div>
     <div className='headerMiddle'>
     <div className='exploreDrop'>
