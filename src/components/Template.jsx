@@ -1,10 +1,12 @@
 import React from 'react';
 import Plate from './plate.jpg';
-import './Template.css'
+import Header from './Header';
+import './Template.css';
 
 function Template(){
   return(
     <div className='plateDiv'>
+    <Header/>
     <img className='plateImage' src={Plate}></img>
     <div className='plateText'>
     <p>Meet the new <b>temp</b> for our office <b>plate</b>, Karen!</p>
